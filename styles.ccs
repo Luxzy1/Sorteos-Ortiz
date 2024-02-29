@@ -1,0 +1,47 @@
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8f7; /* Verde claro */
+}
+
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Blanco */
+}
+
+#header img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#participants {
+    margin-top: 20px;
+}
+
+#participantTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#participantTable th, #participantTable td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#participantTable th {
+    background-color: #f0f8f7; /* Verde claro */
+}
+
+#controlPanel {
+    margin-top: 20px;
+}
+
+#result {
+    margin-top: 20px;
+}

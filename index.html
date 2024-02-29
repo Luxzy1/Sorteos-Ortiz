@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteo de iPhone 13 Pro</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+    <div id="main">
+        <section id="header">
+            <h1>Sorteo de iPhone 13 Pro</h1>
+            <img src="C:/Users/cesar/Desktop/sorteo%202/trebol.png" alt="iPhone 13 Pro"> <!-- Ruta de la imagen actualizada -->
+        </section>
+        
+        <section id="participants">
+            <h2>Lista de Participantes</h2>
+            <table id="participantTable">
+                <thead>
+                    <tr>
+                        <th>Número</th>
+                        <th>Nombre</th>
+                    </tr>
+                </thead>
+                <tbody id="participantList">
+                    <!-- La lista de participantes se actualizará dinámicamente con JavaScript -->
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="controlPanel">
+            <h2>Panel de Control</h2>
+            <input type="text" id="participantName" placeholder="Nombre del participante">
+            <input type="number" id="participantNumber" placeholder="Número">
+            <button id="addParticipantBtn">Agregar Participante</button>
+            <button id="drawWinnerBtn">Realizar Sorteo</button>
+        </section>
+
+        <section id="result">
+            <h2>Resultado del Sorteo</h2>
+            <p id="winnerResult"></p>
+        </section>
+    </div>
+    
+    <script src="script.js"></script> <!-- Enlace al archivo JavaScript -->
+</body>
+</html>
